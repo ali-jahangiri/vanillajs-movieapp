@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="mainCol" class="col-md-11 m-auto">
+          <div class="row">
+            <!-- first colunm -->
+            <div id="firstCol" class="col-md-5 m-auto">
+              <div id="inside" class="col-md-11 m-auto">
+                <input
+                  class="one form-control"
+                  type="text"
+                  placeholder="Enter Your First Movie Name"
+                />
+                <div id="res"></div>
+              </div>
+            </div>
+            <!-- second column -->
+            <div id="secondCol" class="col-md-5 m-auto">
+              <div class="col-md-11 m-auto">
+                <input
+                  class="two form-control"
+                  type="text"
+                  placeholder="Enter Your Second Movie Name"
+                />
+                <div id="resTwo"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
